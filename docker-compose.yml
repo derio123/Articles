@@ -24,8 +24,8 @@ services:
       - 8002:80
     restart: unless-stopped
     volumes:
-      - ./:/var/www
-      - ./docker/nginx/:/etc/nginx/conf.d/
+      - .:/var/www/public
+      - ./docker/nginx/articles.conf:/etc/nginx/conf.d/articles.conf
     networks:
       - laravel-eti
 

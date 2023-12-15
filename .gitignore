@@ -16,9 +16,9 @@ yarn-error.log
 .docker/*
 docker/nginx/
 uploads.ini/
-.env.example
+.env
 artisan
-
 storage/*
 storage/framework/*
 storage/app/*
+.docker/
